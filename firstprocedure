@@ -1,0 +1,7 @@
+create or replace procedure first(a number, b number)
+as
+c number;
+begin
+c:=a+b;
+dbms_output.out_line('Sum of two number is  '||c);
+end first;
